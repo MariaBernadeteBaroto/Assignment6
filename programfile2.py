@@ -41,6 +41,32 @@ else:
     print('wrong')
     wrong = wrong + 1
 
+add7 = random.randint(0,99)
+add8 = random.randint(0,99)
+
+answer4 = input('4.'+str(add7) +' + '+str(add8) +': ')
+if float(answer4) == add7 + add8:
+    print('correct')
+    score = score + 1
+else:
+    print('wrong')
+    wrong = wrong + 1
+
+add9 = random.randint(0,99)
+add10 = random.randint(0,99)
+
+answer5 = input('5. '+str(add9) +' + '+str(add10) +': ')
+if float(answer5) == add9 + add10:
+    print('correct')
+    score = score + 1
+else:
+    print('wrong')
+    wrong = wrong + 1
+
+    
+
+
+
 print('Your score is '+str(score) +' / 10')
 print(name)
 
