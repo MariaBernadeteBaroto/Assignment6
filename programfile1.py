@@ -1,41 +1,25 @@
 
 # 1. Ask for four numbers
 
+
 number1 = int(input("Enter first number: "))
 number2 = int(input("Enter second number: "))
 number3 = int(input("Enter third number: "))
 number4 = int(input("Enter fourth number: "))
 
 # condtion 1
-if number1 < number2:
-    low1 = number1
-    high1 = number2    # true block
-else: 
-    low1 = number2
-    high1 = number2    # false block
+def sort4_descending(number1, number2,number3, number4):
+    if number1 > number2:
+        if number2> number3:
+            if number4 > number2:
+                if number4 > number1:
+                    return (number4, number1, number2, number3)
+                else:
+                    if number4 > number3:
+                        return(number1, number2, number4, number3)
+                    else:
+                        return(number1, number2, number3, number4)
 
-# condtion 2
-if number3 < number4:
-    low2 = number3
-    high2 = number4    # true block
-else:
-    low2 = number4
-    high2 = number3     # false block
+            
 
-# condition 3
-if low1 < low2:
-    lowest = low1
-    middle1 = low2
-else:
-    lowest = low2
-    middle1 = low1
 
-# condition 4
-if high1 < high2:
-    highest = high1
-    middle1 = high2
-else:
-    highest = high2
-    middle1 = high1
-
-# condition 5
