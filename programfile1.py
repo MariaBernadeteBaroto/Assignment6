@@ -29,6 +29,13 @@ if low1 < low2:
 else:
     lowest = low2
     middle1 = low1
-    
+
 # condition 4
+if high1 < high2:
+    highest = high1
+    middle1 = high2
+else:
+    highest = high2
+    middle1 = high1
+
 # condition 5
