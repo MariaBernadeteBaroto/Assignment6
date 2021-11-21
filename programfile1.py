@@ -23,5 +23,12 @@ else:
     high2 = number3     # false block
 
 # condition 3
+if low1 < low2:
+    lowest = low1
+    middle1 = low2
+else:
+    lowest = low2
+    middle1 = low1
+    
 # condition 4
 # condition 5
