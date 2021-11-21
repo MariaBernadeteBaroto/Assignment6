@@ -35,6 +35,28 @@ if answer3 == add5 + add6:
 else:
     incorrect_answers3 = answer3
 
+add7 = random.randrange(0,99)
+add8 = random.randrange(0,99)
+
+answer4 = float(input(f'{add7} and {add8}: '))
+
+if answer4 == add7 + add8:
+    correct_asnwers4 = answer4
+else: 
+    uncorrect_answers4 = answer4
+
+add9 = random.randrange(0,99)
+add10 = random.randrange(0,99)
+
+answer5 = float(input(f'{add9} and {add10}: '))
+
+if answer5 == add9 + add10:
+    correct_answer = answer5
+else: 
+    uncorrect_answers5 = answer5
+
+
+
 
 
 
