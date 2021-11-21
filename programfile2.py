@@ -27,8 +27,19 @@ if float(answer2) == add3 + add4:
     print('correct')
     score = score + 1
 else:
+    print('wrong')
     wrong = wrong + 1
 
+add5 = random.randint(0,99)
+add6 = random.randint(0,99)
+
+answer3 = input('3. '+str(add5) +' + '+str(add6) +': ')
+if float(answer3) == add5 + add6:
+    print('correct')
+    score = score + 1
+else:
+    print('wrong')
+    wrong = wrong + 1
 
 print('Your score is '+str(score) +' / 10')
 print(name)
