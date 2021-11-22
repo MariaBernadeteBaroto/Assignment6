@@ -63,7 +63,65 @@ else:
     print('wrong')
     wrong = wrong + 1
 
-    
+add11 = random.randint(0,99)
+add12 = random.randint(0,99)
+
+answer6 = input('6. '+str(add11) +' + '+str(add12) +': ')
+if float(answer6) == add11 + add12:
+    print('correct')
+    score = score + 1
+else:
+    print('wrong')
+    wrong = wrong + 1
+
+add13 = random.randint(0,99)
+add14 = random.randint(0,99)
+
+answer7 = input('7. '+str(add13) +' + '+str(add14) +': ')
+if float(answer7) == add13 + add14:
+    print('correct')
+    score = score + 1
+else:
+    print('wrong')
+    wrong = wrong + 1
+
+add15 = random.randint(0,99)
+add16 = random.randint(0,99)
+
+answer8 = input('8. '+str(add15) +' + '+str(add16) +': ')
+if float(answer8) == add15 + add16:
+    print('correct')
+    score = score + 1
+else:
+    print('wrong')
+    wrong = wrong + 1
+
+add17 = random.randint(0,99)
+add18 = random.randint(0,99)
+
+answer9 = input('9. '+str(add17) +' + '+str(add18) +': ')
+if float(answer9) == add17 + add18:
+    print('correct')
+    score = score + 1
+else:
+    print('wrong')
+    wrong = wrong + 1
+
+add19 = random.randint(0,99)
+add20 = random.randint(0,99)
+
+answer10 = input('10. '+str(add19) +' + '+str(add20) +': ')
+if float(answer10) == add19 + add20:
+    print('correct')
+    score = score + 1
+else:
+    print('wrong')
+    wrong = wrong + 1
+
+
+
+
+
 
 
 
