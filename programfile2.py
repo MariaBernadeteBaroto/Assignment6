@@ -119,12 +119,6 @@ else:
     wrong = wrong + 1
 
 
-
-
-
-
-
-
 print('Your score is '+str(score) +' / 10')
 print(name)
 
